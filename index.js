@@ -1,4 +1,4 @@
-function newTask(title, description) {
+const newTask = function(title, description) {
   const task = {
     title: title,
     description: description,
